@@ -1,0 +1,9 @@
+#!/bin/sh
+
+ghc csce322assgn3prt5.hs -o bin/fifth
+rm csce322assgn3prt5.o
+rm csce322assgn3prt5.hi
+rm Helpers.o
+rm Helpers.hi
+
+./bin/fifth $1

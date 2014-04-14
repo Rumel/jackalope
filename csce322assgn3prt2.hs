@@ -19,4 +19,14 @@ yourMain chess =
 -- YOUR CODE SHOULD COME AFTER THIS POINT
 
 restart :: (Int, [Char], [[Char]]) -> (Int, [Char], [[Char]])
-restart (time, captured, board) = (time, captured, board)
+restart (time, captured, board) =
+	( 600,
+	  "",
+		[ "ohsuisho",
+		  "aaaaaaaa",
+		  "--------",
+		  "--------",
+		  "--------",
+		  "--------",
+		  "pppppppp",
+		  "rgbqkbgr"] )
